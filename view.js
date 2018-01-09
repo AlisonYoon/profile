@@ -65,7 +65,7 @@ $(document).ready(function () {
     $("#site_tool p:nth-child(4)").css({'transform':'translate3d(0px,0%,0px)',"opacity":'1'});
     $("#site_url a:nth-child(3)").css('transform','translate3d(0px,-150%,0px)');
     $("#site_url a:nth-child(4)").css({'transform':'translate3d(0px,0%,0px)',"opacity":'1'});
-    $(".link_site").attr("href", "http://wp.alisonyoon.com/");
+    $(".link_site").attr("href", "http://okanaji.com");
     $("#showcase video source").attr("src", "wp.mp4");
       $("#showcase video")[0].load();
     $("#site_title_wrap div:nth-child(3)").removeClass('selected');
