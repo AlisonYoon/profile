@@ -19,8 +19,8 @@ p,li,dd{ line-height:1.5em;}
 
 #wrap {position:absolute; width:100%; height:100%}
 #main {position:absolute; top:0; right:0; bottom:0; left:0; background-color:#ecede8; display:flex; align-items: center; transform:translate3d(0px,0%,0px); transition:transform 1s cubic-bezier(.165,.84,.44,1);}
-.title {text-transform: uppercase; position:relative; width:72vw; height:32vw;}
-.title .intro {position:absolute; top:19vw; width:28vw; right:0;}
+.title {text-transform: uppercase; position:relative; width:83vw; height:32vw;}
+.title .intro {position:absolute; top:14vw; width:37vw; right:0;}
 .title .intro p {text-transform:none;}
 .title .intro p span {color:#4d5350; font-weight:400; display:block; margin-top:.8vw; font-size:.85rem;}
 .title h1{font-size:5rem; line-height:3.3rem; text-align: center; color:#2a2e2d;}
@@ -217,6 +217,7 @@ top:0;bottom:0;transform:translate3d(0,-100%,0);width:100%; height:100%; backgro
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 14vw;
 }
 
 .bttn {
@@ -304,10 +305,10 @@ top:0;bottom:0;transform:translate3d(0,-100%,0);width:100%; height:100%; backgro
 #page_detail h2:nth-child(6) {margin:6.2vh 0 1.2vh 0;}
 #page_detail p:nth-child(7) {margin-bottom:4.8vh;}
 
-#site_tool {position:absolute; height:5.5vh; width:20vw;}
-#site_tool p {position:absolute; transform:translate3d(0,100%,0); transition:transform .7s cubic-bezier(.165,.84,.44,1);}
+#site_tool {position:absolute; height:48px; width:20vw;}
+#site_tool p {position:absolute; transform:translate3d(0,180%,0); transition:transform .7s cubic-bezier(.165,.84,.44,1);}
 #site_tool p:nth-child(1) {transform:translate3d(0,0%,0);}
-#site_tool p:nth-child(4) {transform:translate3d(0,200%,0);}
+#site_tool p:nth-child(4) {transform:translate3d(0,250%s,0);}
 
 #nav_page {margin-right:37px; position: relative; display: block; padding: 5px;}
 #nav_page a {display:block;}
@@ -338,7 +339,7 @@ top:0;bottom:0;transform:translate3d(0,-100%,0);width:100%; height:100%; backgro
 
 /*View Site Button*/
 a.link_site {
-  margin-top:8vh;
+  margin-top:10vh;
   color: #2a2e2d;
   display: inline-block;
   text-decoration: none;
